@@ -1,6 +1,5 @@
 body {
     background-color: #87C4FF;
-    /* background-color: #161A30; */
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
@@ -17,14 +16,13 @@ body {
 
 .col1 {
     background-color: #E0F4FF;
-    /* background-color: #B6BBC4; */
     border-radius: 20px;
     padding: 2%;
     width: 25%;
     text-align: center;
     height: fit-content;
     box-shadow: 5px 10px #39A7FF;
-    /* color: #190482; */
+
 }
 
 .container {
@@ -100,6 +98,12 @@ p {
     margin-top: 15px;
     line-height: 0;
     color: #190482;
+
+}
+
+.col2 :hover {
+    background-color: #dbe6f0;
+    cursor: pointer;
 }
 
 .star {

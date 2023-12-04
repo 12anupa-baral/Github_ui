@@ -52,11 +52,15 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="star">
             <div class="rate">
              <i class='fa fa-star'></i>
-              <p class="value">: ${repo.stargazers_count}</p>
+              <p class="value">${repo.stargazers_count}</p>
               </div>
               <div class="link">
-              <i class='fa fa-link'></i>
-              <a href="${repo.html_url}" target="_blank">view repository</a>
+              <a href="${
+                repo.html_url
+              }" target="_blank" ><i class='fa fa-link'></i></a>
+              <a href="${
+                repo.html_url
+              }" target="_blank" id="view">view repository</a>
               </div>
             </div>
           `;

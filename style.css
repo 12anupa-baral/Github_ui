@@ -145,6 +145,14 @@ a {
     font-size: 18px;
 }
 
+#view {
+    margin-top: 7px;
+}
+
+.link :hover {
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 720px) {
     .container {
         display: flex;

@@ -103,6 +103,12 @@ p {
     cursor: pointer;
 }
 
+.col2 h2:hover {
+    color: #190482;
+    background-color: transparent;
+
+}
+
 .star {
     padding: 3%;
     display: flex;

@@ -10,7 +10,6 @@ body {
 .col2 {
 
     border-radius: 20px;
-    width: 58%;
 
 }
 
@@ -18,7 +17,6 @@ body {
     background-color: #E0F4FF;
     border-radius: 20px;
     padding: 2%;
-    width: 25%;
     text-align: center;
     height: fit-content;
     box-shadow: 5px 10px #39A7FF;
@@ -26,7 +24,6 @@ body {
 }
 
 .container {
-    display: flex;
     margin: 5% 10% 0 10%;
     justify-content: space-around;
 
@@ -140,4 +137,20 @@ p {
 a {
     text-decoration: none;
     font-size: 18px;
+}
+
+@media screen and (min-width: 720px) {
+    .container {
+        display: flex;
+    }
+
+    .col2 {
+        width: 58%;
+
+    }
+
+    .col1 {
+        width: 25%;
+
+    }
 }
